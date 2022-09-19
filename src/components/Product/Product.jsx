@@ -1,6 +1,6 @@
 import "./Product.scss";
-import {Link} from 'react-router-dom';
-export const Product=(props)=> {
+export const Product = (props) => {
+  console.log(Product);
   return (
     <div className="container">
       <div className="product">
@@ -12,21 +12,21 @@ export const Product=(props)=> {
         <div className="content-list">
           <div className="item">
             <div className="img">
-              <Link href="/details">
+              <a href="/details">
                 <img src="./assets/images/Product/product_1.png" alt="" />
-              </Link>
+              </a>
             </div>
             <div className="info">
-              <a href="">Apple iPhone 14 Pro Max - Chính hãng VN/A</a>
+              <a href="/details">{props.product_name}</a>
               <span className="price">
-                <strong>31,490,000 ₫</strong>
+                <strong>{props.price}</strong>
               </span>
             </div>
           </div>
-         </div>
+        </div>
       </div>
     </div>
   );
-}
+};
 
 export default Product;

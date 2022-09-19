@@ -5,9 +5,9 @@ function Header() {
     <div className="heading">
       <div className="container">
         <div className="logo">
-          <a href="">
+          {/* <a href="">
             <img src="./assets/images/logo-text.png" alt="" />
-          </a>
+          </a> */}
         </div>
         <div className="search-box">
           <form action="">
@@ -24,8 +24,10 @@ function Header() {
             <a href="">
               <i class="bx bx-cart"></i>
               <label>
-              <i class='bx bxs-left-arrow'> <span id="cart-total">0</span></i>
-               
+                <i class="bx bxs-left-arrow">
+                  {" "}
+                  <span id="cart-total">0</span>
+                </i>
               </label>
             </a>
           </div>

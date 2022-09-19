@@ -13,43 +13,43 @@ function Navbar() {
           </li>
           <li>
             <a href="">
-            <i class='bx bxs-watch' ></i>
+              <i class="bx bxs-watch"></i>
               <span>Đồng hồ</span>
             </a>
           </li>
           <li>
             <a href="">
-            <i class='bx bx-laptop' ></i>
+              <i class="bx bx-laptop"></i>
               <span>Laptop</span>
             </a>
           </li>
           <li>
             <a href="">
-            <i class='bx bx-desktop' ></i>
+              <i class="bx bx-desktop"></i>
               <span>Màn hình</span>
             </a>
           </li>
           <li>
             <a href="">
-            <i class='bx bxs-tv' ></i>
+              <i class="bx bxs-tv"></i>
               <span>Smart TV</span>
             </a>
           </li>
           <li>
             <a href="">
-            <i class='bx bx-tab' ></i>
+              <i class="bx bx-tab"></i>
               <span>Tablet</span>
             </a>
           </li>
           <li>
             <a href="">
-            <i class='bx bx-headphone' ></i>
+              <i class="bx bx-headphone"></i>
               <span>Tai nghe</span>
             </a>
           </li>
           <li>
             <a href="">
-            <i class='bx bx-news' ></i>
+              <i class="bx bx-news"></i>
               <span>Tin tức</span>
             </a>
           </li>
